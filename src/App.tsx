@@ -1,5 +1,6 @@
 import './App.css'
-import UseEffectV1 from './components/useEffectV1'
+import UseEffectV1 from './components/UseEffectV1'
+import UseMemo from './components/UseMemo'
 import UseStateV1 from './components/UseStateV1'
 import UseStateV2 from './components/UseStateV2'
 
@@ -10,6 +11,7 @@ function App() {
     <UseStateV1/>
     <UseStateV2/>
     <UseEffectV1/>
+    <UseMemo/>
     </>
   )
 }

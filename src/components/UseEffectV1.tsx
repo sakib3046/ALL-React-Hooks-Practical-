@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const UseEffectV1 = () => {
-    const [resourceType, setResourceType]=useState("posts");
+    const [resourceType, setResourceType]=useState("");
     const [items,setItems]=useState([])
     useEffect(()=>{
         console.log("onMount");
